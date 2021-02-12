@@ -1,0 +1,1351 @@
+
+/*STYLES FOR BODY*/
+body{
+   
+  overflow-x:hidden;
+  padding: 0px;
+  margin: 0px;
+  }
+  ul li
+  {
+      list-style-type: none;
+  }
+  /*STYLES FOR FOOTER*/
+  footer
+  {
+      margin-top: -16px;
+      background-color:rgb(231, 228, 228);
+      color: black;
+  }
+  #conty
+  {
+      background-image: url('ani.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      padding: 20px 0px 20px 0px;
+  }
+  /*STYLES FOR BGRIDS*/
+  #grid
+  {
+    width: 80%;
+    margin: -10px 10% 0px 10%;
+     display: flex;
+     flex-flow: row wrap;
+     justify-content:space-around;
+     align-items: flex-start;
+     align-content: center;
+     
+  }
+  #grid div
+  {
+      background-color: black;
+      margin: 3px;
+      opacity: 0.8;
+      border-top: 4px solid goldenrod;
+      border-bottom: 4px solid goldenrod;
+      text-align: center;
+      color: white;
+  }
+  
+  /*STYLES FOR SOCIAL MEDIA LINKS /BUTTONS*/
+      .imen {
+          flex-grow: 1;
+          flex-shrink: 1;
+          flex-basis: 30%;
+       
+        padding: 16px;
+      }
+  
+      .imen2 {
+          flex-grow: 1;
+           flex-basis: none;
+         padding: 16px;
+      }
+    
+  .imen i,.imen2 i{
+      font-size: 40px;
+      margin-top: 14px;
+      color: goldenrod;
+  }
+  .imen h6,.imen p,.imen2 h6,.imen2 p
+  {
+      margin-top: 8px;
+      font-family: lexend exa;
+      margin-bottom: 4px;
+  }
+  /*STYLES FOR FOOTER*/
+  footer a
+  {
+      color: gray;
+      font-family: josefin sans;
+      font-size: 16px;
+      
+  }
+  .ops
+  {
+      background-color  :rgb(235, 236, 238); 
+      border-top: 1px solid whitesmoke;
+      border-bottom: 1px solid whitesmoke;
+      height: 50px;
+      margin-bottom: 14px;
+  }
+  .ops span
+  {
+      margin-top: 9px;
+      padding-right: 25px;
+  }
+  .ops span i{
+      font-size: 20px;
+  }
+  .ops ul li
+  {
+      display: inline-block;
+  }
+  footer ul
+  {
+      margin: 20px 0px 20px 0px;
+  }footer ul li
+  {
+    padding: 3px;
+  }
+  footer ul li strong
+  {
+      font-family: Major mono display;
+      font-size: 18px;
+      
+  }
+  /*STYLES FOR HEADER*/
+  header
+  {
+      border-bottom: 1px solid white;
+      background-color: black;
+      color: white;
+      height: 49px;
+      background-position: center;
+      background-repeat: no-repeat;
+     
+  }
+  a
+  {
+      text-decoration:none;
+      color: white;
+  }
+  #sun
+  {
+      color: white;
+  }
+  #moon
+  {
+      display: none;
+     
+  }
+  #nm
+  {
+      float: right;
+      font-size: 18px;
+  }
+  /*STYLES FOR PAGE LOGO*/
+  .logo a h3 
+  {
+      font-family: 'Monoton', cursive; ;
+      font-size: 20px;
+      color:rgb(250, 193, 48);
+      margin-right: 50px;
+      text-decoration: none;
+      padding: 3px;
+      padding-top: 14px;
+     font-weight: normal;
+  }
+  .othw
+  {
+      float: right;
+      
+  }
+  .othw i
+  {
+      color: rgb(250, 193, 48);
+  }
+  .othw:hover i
+  {
+     animation: spin 0.9s linear infinite;
+  }
+  .othw:hover i
+  {
+     
+      transition: 2s;
+  }
+   
+  .oth
+  {
+      float:left;
+      font-family: lexend exa;
+     font-weight: 10;
+      font-size: 6.5px;
+      padding: 7px 4px 0px 4px;
+      border-left: 0.5px solid white;
+      height: 20px;
+      background-color:black;
+  }
+  
+  #mvmt a:hover
+  {
+     color: black;
+    
+  }
+  .oth:hover
+  {
+      background-color:rgb(218, 213, 213);
+      border-bottom: 2px solid black;
+     font-weight: bolder;
+     transition: all 0.4s ease-in-out;
+  }
+   
+  #sect
+  {
+      background-image: url('photo.png');
+      height: 35px;
+      background-repeat:no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+  /*RESPONSIVENESS FOR NAV-BAR SECTIONS*/
+  .oth:hover i
+  {
+      color: gray;
+  }
+  .copyright-content
+  {
+      font-size: 20px;
+      background-color:skyblue;
+  }
+  @keyframes spin {
+      100% {
+          transform: rotateY(360deg);
+  
+      }
+  
+  }
+  
+  @keyframes spine {
+      100% {
+          transform: rotateX(360deg);
+  
+      }
+  
+  }
+  @media only screen and (max-width:768px)
+  {
+    
+     
+            .imen2 {
+                flex-grow: 1;
+                flex-basis: 30%;
+  
+            }
+      
+  }
+  @media only screen and (min-width:320px) and (max-width:430px) {
+  
+  
+      .imen2 {
+          flex-grow: 1;
+          flex-basis: 100%;
+  
+      }
+  
+  }
+
+
+/* Make the image fully responsive */
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+    width: 100%;
+    position:inherit;
+}
+
+#caromeasurement{
+  height: 400px;
+  padding-top: -20px;
+  
+
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+ margin-top: 30px;
+ margin-bottom: 20px;
+ margin-left: px;
+ font-family: 'Andika New Basic', sans-serif;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 10px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  color:gold;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  border-bottom: 2px solid gold;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  border-top: none;
+  height: 500px;
+}
+/*STYLES THE H3 OF THE TAB*/
+.tabcontent h3 {
+  font-family: 'Andika New Basic', sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+/*STYLES THE P  OF THE TAB*/
+.tabcontent p {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*STYLES FOR IMAGE OF THE IMAGE CONTAINER*/
+#imagecon{
+  background-image: url(image/white\ background\ graphics.jpg);
+  height: 100px;
+  margin-top: 30px;
+}
+/*STYLES FOR  PACKAGE DETAILS IMAGES*/
+#desimage{
+  width: 130px;
+  height: 80px;
+}
+
+/*STYLES FOR Header of the package details*/
+#conheader{
+font-family: 'Redressed', cursive;
+padding-left: 50px;
+padding-top: 30px;
+}
+
+#thehr{
+background-color: gold;
+margin-left: 45px;
+}
+/*STYLEs for the parent container of the package details*/
+#maindiv{
+margin-top: 20px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin-left:10px;
+padding: 100px;
+border-radius: 1px;
+}
+/*STYLEs for the child container of the package details*/
+#firstdiv{
+position: relative;
+margin-left:-87px;
+margin-top:-10px;
+}
+
+/*STYLEs for the child container of the package details*/
+#seconddiv{
+position: absolute;
+margin-top: -130px;
+margin-left: 50px;
+padding-right: 20px;
+border-left: 0.5px solid black;
+}
+
+/*STYLEs for the h4 of the child container for the package details*/
+#seconddiv h4{
+font-size: 10px;
+
+}
+/*STYLEs for the h5 of the child container for the package details*/
+#seconddiv h5{
+  font-size: 10px;
+  
+  }
+  /*STYLEs for the p of the child container for the package details*/
+  #seconddiv p{
+    font-size: 7px;
+    
+    }
+
+#pt1{
+padding-left: 20px;
+}
+
+#lastdiv{
+padding-top: 50px;height: 200px;
+}
+/*STYLEs for button*/
+#connectinput{
+  height: 50px;
+  width: 150px;
+  background-color: white;
+  color: goldenrod;
+  outline: none;
+  border-color: black;
+  border-radius: 3px;
+  margin-left:100px;
+}
+
+#connectinput:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  transition: 1s;
+}
+
+#maindiv p{
+  font-family: 'Raleway', sans-serif;
+}
+#maindiv h4{
+  font-family: 'Roboto Slab', serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Page responsiveness for TABLET(IPAD)*/
+
+@media only screen and (min-width:768px){
+ 
+  /*STYLEs for the body*/
+  body{
+     
+      overflow-x:hidden;
+      padding: 0px;
+      margin: 0px;
+      }
+      ul li
+      {
+          list-style-type: none;
+      }
+      /*STYLEs for the FOOTER*/
+      footer
+      {
+          margin-top: -16px;
+          background-color:rgb(231, 228, 228);
+          color: black;
+      }
+      #conty
+      {
+          background-image: url('ani.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          padding: 20px 0px 20px 0px;
+      }
+      #grid
+      {
+        width: 80%;
+        margin: -10px 10% 0px 10%;
+         display: flex;
+         flex-flow: row wrap;
+         justify-content:space-around;
+         align-items: flex-start;
+         align-content: center;
+         
+      }
+      #grid div
+      {
+          background-color: black;
+          margin: 3px;
+          opacity: 0.8;
+          border-top: 4px solid goldenrod;
+          border-bottom: 4px solid goldenrod;
+          text-align: center;
+          color: white;
+      }
+      /*STYLEs for the SOCIAL MEDIA BUTTONS*/
+          .imen {
+              flex-grow: 1;
+              flex-shrink: 1;
+              flex-basis: 30%;
+           
+            padding: 16px;
+          }
+      
+          .imen2 {
+              flex-grow: 1;
+               flex-basis: none;
+             padding: 16px;
+          }
+        
+      .imen i,.imen2 i{
+          font-size: 40px;
+          margin-top: 14px;
+          color: goldenrod;
+      }
+      .imen h6,.imen p,.imen2 h6,.imen2 p
+      {
+          margin-top: 8px;
+          font-family: lexend exa;
+          margin-bottom: 4px;
+      }
+      footer a
+      {
+          color: gray;
+          font-family: josefin sans;
+          font-size: 16px;
+          
+      }
+      .ops
+      {
+          background-color  :rgb(235, 236, 238); 
+          border-top: 1px solid whitesmoke;
+          border-bottom: 1px solid whitesmoke;
+          height: 50px;
+          margin-bottom: 14px;
+      }
+      .ops span
+      {
+          margin-top: 9px;
+          padding-right: 65px;
+      }
+      .ops span i{
+          font-size: 20px;
+      }
+      .ops ul li
+      {
+          display: inline-block;
+      }
+      /*STYLEs FOR FOOTER LISTS*/
+      footer ul
+      {
+          margin: 20px 0px 20px 0px;
+      }footer ul li
+      {
+        padding: 3px;
+      }
+      footer ul li strong
+      {
+          font-family: Major mono display;
+          font-size: 18px;
+          
+      }
+      header
+      {
+          border-bottom: 1px solid white;
+          background-color: black;
+          color: white;
+          height: 49px;
+          background-position: center;
+          background-repeat: no-repeat;
+         
+      }
+      a
+      {
+          text-decoration:none;
+          color: white;
+      }
+      #sun
+      {
+          color: white;
+      }
+      #moon
+      {
+          display: none;
+         
+      }
+      #nm
+      {
+          float: right;
+          font-size: 18px;
+      }
+      /*STYLEs for theWEBSITE LOGO*/
+      .logo a h3 
+      {
+          font-family: 'Monoton', cursive; ;
+          font-size: 15px;
+          color:rgb(250, 193, 48);
+          margin-right: 10px;
+          text-decoration: none;
+          padding: 3px;
+          padding-top: 14px;
+         font-weight: normal;
+      }
+      .othw
+      {
+          float: left;
+          
+      }
+      .othw i
+      {
+          color: rgb(250, 193, 48);
+      }
+      .othw:hover i
+      {
+         animation: spin 0.9s linear infinite;
+      }
+      .othw:hover i
+      {
+         
+          transition: 2s;
+      }
+       
+      .oth
+      {
+          float:left;
+          font-family: lexend exa;
+         font-weight: 10;
+          font-size: 10px;
+          padding: 17px 7px 0px 4px;
+          border-left: 0.5px solid white;
+          height: 47px;
+       
+      }
+      
+      #mvmt a:hover
+      {
+         color: black;
+        
+      }
+      .oth:hover
+      {
+          background-color:rgb(218, 213, 213);
+          border-bottom: 2px solid black;
+         font-weight: bolder;
+         transition: all 0.4s ease-in-out;
+      }
+       
+      #sect
+      {
+          background-image: url('photo.png');
+          height: 35px;
+          background-repeat:no-repeat;
+          background-position: center;
+          background-size: cover;
+      }
+      .oth:hover i
+      {
+          color: gray;
+      }
+      .copyright-content
+      {
+          font-size: 20px;
+          background-color:skyblue;
+      }
+      @keyframes spin {
+          100% {
+              transform: rotateY(360deg);
+      
+          }
+      
+      }
+      
+      @keyframes spine {
+          100% {
+              transform: rotateX(360deg);
+      
+          }
+      
+      }
+      @media only screen and (max-width:768px)
+      {
+        
+         
+                .imen2 {
+                    flex-grow: 1;
+                    flex-basis: 30%;
+      
+                }
+          
+      }
+      @media only screen and (min-width:320px) and (max-width:430px) {
+      
+      
+          .imen2 {
+              flex-grow: 1;
+              flex-basis: 100%;
+      
+          }
+      
+      }
+   
+   /* Make the image fully responsive */
+   .carousel-inner img {
+      width: 100%;
+      height: 100%;
+    }
+  /*STYLEs for the SIZE OF THE CAROUSEL*/
+    #caromeasurement{
+      width: 100%;
+      height: 500px;
+   
+  }
+  /* Style the tab */
+  .tab {
+      overflow: hidden;
+     margin-top: 30px;
+     margin-left: 50px;
+     font-family: 'Andika New Basic', sans-serif;
+    }
+    
+    /* Style the buttons inside the tab */
+    .tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+    
+      transition: 0.3s;
+      font-size: 17px;
+    }
+    
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+      color:gold;
+    }
+    
+    /* Create an active/current tablink class */
+    .tab button.active {
+      border-bottom: 3px solid gold;
+    }
+    
+    /* Style the tab content */
+    .tabcontent {
+      display: none;
+      border-top: none;
+      height: 300px;
+    }
+    /*STYLEs for the H3 OF THE TAB*/
+    .tabcontent h3 {
+      font-family: 'Andika New Basic', sans-serif;
+      text-align: center;
+    }
+  /*STYLEs for the P OF THE TAB*/
+    .tabcontent p {
+      font-family: 'Quicksand', sans-serif;
+      text-align: center;
+    }
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*image style for the image container*/
+  #imagecon{
+      background-image: url(image/white\ background\ graphics.jpg);
+      height: 100px;
+      margin-top: 30px;
+  }
+   /*image style for package details container*/
+#desimage{
+  width: 330px;
+  height: 280px;
+}
+
+  /*image style for the  header of the package details*/
+#conheader{
+font-family: 'Redressed', cursive;
+padding-left: 50px;
+padding-top: 30px;
+}
+#thehr{
+background-color: gold;
+margin-left: 45px;
+}
+  /*image style for the parent container of the package details*/
+#maindiv{
+margin-top: 20px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin-left:10px;
+padding: 100px;
+border-radius: 1px;
+}
+ /*image style for the child container of the package details*/
+#firstdiv{
+position: relative;
+margin-left:-87px;
+margin-top:-10px;
+}
+ /*image style for the child container of the package details*/
+#seconddiv{
+position: absolute;
+margin-top: -280px;
+margin-left: 250px;
+padding-right: 20px;
+border-left: 0.5px solid black;
+}
+ /*image style for the h4 of child container of the package details*/
+#seconddiv h4{
+font-size: 25px;
+
+}
+ /*image style for the h5 of child container of the package details*/
+#seconddiv h5{
+  font-size: 20px;
+  
+  }
+   /*image style for the p of child container of the package details*/
+  #seconddiv p{
+    font-size: 17px;
+    
+    }
+
+#pt1{
+padding-left: 20px;
+}
+
+#lastdiv{
+padding-top: 50px;height: 200px;
+}
+ /*image style for the package details link button*/
+  #connectinput{
+      height: 50px;
+      width: 150px;
+      background-color: white;
+      color: goldenrod;
+      outline: none;
+      border-color: black;
+      border-radius: 3px;
+      margin-left: 300px;
+  }
+  
+  #connectinput:hover{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+      transition: 1s;
+  }
+  
+  #maindiv p{
+      font-family: 'Raleway', sans-serif;
+  }
+  #maindiv h4{
+      font-family: 'Roboto Slab', serif;
+  }
+  
+  }
+  
+  
+ 
+
+
+ /*responsiveness for a large screen device(laptop)*/
+@media only screen and (min-width:1024px){
+   /* style for  body of the page*/
+  body{
+     
+      overflow-x:hidden;
+      padding: 0px;
+      margin: 0px;
+      }
+  ul li
+  {
+      list-style-type: none;
+  }
+   /* style for  footer of the page*/
+  footer
+  {
+      margin-top: -16px;
+      background-color:rgb(231, 228, 228);
+      color: black;
+  }
+  #conty
+  {
+      background-image: url('ani.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      padding: 20px 0px 20px 0px;
+  }
+  #grid
+  {
+    width: 80%;
+    margin: -10px 10% 0px 10%;
+     display: flex;
+     flex-flow: row wrap;
+     justify-content:space-around;
+     align-items: flex-start;
+     align-content: center;
+     
+  }
+  #grid div
+  {
+      background-color: black;
+      margin: 3px;
+      opacity: 0.8;
+      border-top: 4px solid goldenrod;
+      border-bottom: 4px solid goldenrod;
+      text-align: center;
+      color: white;
+  }
+  
+   /* style for  the social media buttons*/
+      .imen {
+          flex-grow: 1;
+          flex-shrink: 1;
+          flex-basis: 30%;
+       
+        padding: 16px;
+      }
+  
+      .imen2 {
+          flex-grow: 1;
+           flex-basis: none;
+         padding: 16px;
+      }
+    
+  .imen i,.imen2 i{
+      font-size: 40px;
+      margin-top: 14px;
+      color: goldenrod;
+  }
+  .imen h6,.imen p,.imen2 h6,.imen2 p
+  {
+      margin-top: 8px;
+      font-family: lexend exa;
+      margin-bottom: 4px;
+  }
+  footer a
+  {
+      color: gray;
+      font-family: josefin sans;
+      font-size: 16px;
+      
+  }
+  .ops
+  {
+      background-color  :rgb(235, 236, 238); 
+      border-top: 1px solid whitesmoke;
+      border-bottom: 1px solid whitesmoke;
+      height: 50px;
+      margin-bottom: 14px;
+  }
+  .ops span
+  {
+      margin-top: 9px;
+      padding-right: 65px;
+  }
+  .ops span i{
+      font-size: 20px;
+  }
+  .ops ul li
+  {
+      display: inline-block;
+  }
+   /*style for the footer links*/
+  footer ul
+  {
+      margin: 20px 0px 20px 0px;
+  }footer ul li
+  {
+    padding: 3px;
+  }
+  footer ul li strong
+  {
+      font-family: Major mono display;
+      font-size: 18px;
+      
+  }
+  /* style for footery of the page*/
+
+  header
+  {
+      border-bottom: 1px solid white;
+      background-color: black;
+      color: white;
+      height: 49px;
+      background-position: center;
+      background-repeat: no-repeat;
+     
+  }
+  a
+  {
+      text-decoration:none;
+      color: white;
+  }
+  #sun
+  {
+      color: white;
+  }
+  #moon
+  {
+      display: none;
+     
+  }
+  #nm
+  {
+      float: right;
+      font-size: 18px;
+  }
+  /* style for logo of the page*/
+
+  .logo a h3 
+  {
+      font-family: 'Monoton', cursive; ;
+      font-size: 20px;
+      color:rgb(250, 193, 48);
+      margin-right: 30px;
+      text-decoration: none;
+      padding: 3px;
+      padding-top: 14px;
+     font-weight: normal;
+  }
+  .othw
+  {
+      float: left;
+      
+  }
+  .othw i
+  {
+      color: rgb(250, 193, 48);
+  }
+  .othw:hover i
+  {
+     animation: spin 0.9s linear infinite;
+  }
+  .othw:hover i
+  {
+     
+      transition: 2s;
+  }
+   
+  .oth
+  {
+      float:left;
+      font-family: lexend exa;
+     font-weight: 10;
+      font-size: 12px;
+      padding: 17px 14px 0px 14px;
+      border-left: 1px solid white;
+      height: 47px;
+   
+  }
+  
+  #mvmt a:hover
+  {
+     color: black;
+    
+  }
+  .oth:hover
+  {
+      background-color:rgb(218, 213, 213);
+      border-bottom: 2px solid black;
+     font-weight: bolder;
+     transition: all 0.4s ease-in-out;
+  }
+   
+  #sect
+  {
+      background-image: url('photo.png');
+      height: 35px;
+      background-repeat:no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+  .oth:hover i
+  {
+      color: gray;
+  }
+  .copyright-content
+  {
+      font-size: 20px;
+      background-color:skyblue;
+  }
+  @keyframes spin {
+      100% {
+          transform: rotateY(360deg);
+  
+      }
+  
+  }
+  
+  @keyframes spine {
+      100% {
+          transform: rotateX(360deg);
+  
+      }
+  
+  }
+  @media only screen and (max-width:768px)
+  {
+    
+     
+            .imen2 {
+                flex-grow: 1;
+                flex-basis: 30%;
+  
+            }
+      
+  }
+  @media only screen and (min-width:320px) and (max-width:430px) {
+  
+  
+      .imen2 {
+          flex-grow: 1;
+          flex-basis: 100%;
+  
+      }
+  
+  }
+  
+   
+   /* Make the image fully responsive */
+   .carousel-inner img {
+      width: 100%;
+      height: 100%;
+    }
+  /* style for  images of the carousel*/
+
+    #caromeasurement{
+      width: 100%;
+      height: 700px;
+   
+  }
+  /* Style the tab */
+  .tab {
+      overflow: hidden;
+     margin-top: 30px;
+     margin-left: 150px;
+     font-family: 'Andika New Basic', sans-serif;
+    }
+    
+    /* Style the buttons inside the tab */
+    .tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+    }
+    
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+      color:gold;
+    }
+    
+    /* Create an active/current tablink class */
+    .tab button.active {
+      border-bottom: 3px solid gold;
+    }
+    
+    /* Style the tab content */
+    .tabcontent {
+      display: none;
+      border-top: none;
+      height: 250px;
+    }
+     /* Style the h3 of the tab content */
+    .tabcontent h3 {
+      font-family: 'Andika New Basic', sans-serif;
+      text-align: center;
+    }
+     /* Style the p of the tab content */
+    .tabcontent p {
+      font-family: 'Quicksand', sans-serif;
+      text-align: center;
+    }
+  
+     /* Style for the tabcontent of the image container */
+  #imagecon{
+      background-image: url(image/white\ background\ graphics.jpg);
+      height: 100px;
+      margin-top: 30px;
+  }
+   /* Style of the image of the package details */
+  #desimage{
+      width: 480px;
+      height: 300px;
+  }
+  
+   /* Style the package detail header */
+  #conheader{
+  font-family: 'Redressed', cursive;
+  padding-left: 50px;
+  padding-top: 30px;
+  }
+  #thehr{
+  background-color: gold;
+  margin-left: 45px;
+  }
+   /* Style the package detail parent container */
+  #maindiv{
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left:30px;
+  padding: 20px;
+  border-radius: 1px;
+  }
+  /* Style the package detail child container */
+  #firstdiv{
+  position: relative;
+  margin-left: 100px;
+  margin-top: 10px;
+  }
+  /* Style the package detail child container */
+  #seconddiv{
+  position: absolute;
+  margin-top: -290px;
+  margin-left: 600px;
+  padding-right: 20px;
+  border-left: 1px solid black; 
+  }
+  /* Style the package detail child container h4 */
+  #seconddiv h4{
+    font-size: 25px;
+    
+    }
+    /* Style the package detail child container h5 */
+    #seconddiv h5{
+      font-size: 20px;
+      
+      }
+      /* Style the package detail child container p */
+      #seconddiv p{
+        font-size: 15px;
+        
+        }
+  
+  #pt1{
+  padding-left: 20px;
+  }
+  
+  #lastdiv{
+  padding-top: 50px;height: 200px;
+  }
+  /* Styles the package details link button */
+  #connectinput{
+      height: 50px;
+      width: 150px;
+      background-color: white;
+      color: goldenrod;
+      outline: none;
+      border-color: black;
+      border-radius: 3px;
+      margin-left: 700px;
+  }
+  
+  #connectinput:hover{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+      transition: 1s;
+  }
+  
+  #maindiv p{
+      font-family: 'Raleway', sans-serif;
+  }
+  #maindiv h4{
+      font-family: 'Roboto Slab', serif;
+  }
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+
+
+
